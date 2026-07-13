@@ -1,0 +1,17 @@
+{
+    "database": {
+        "driver": "ODBC Driver 18 for SQL Server",
+        "server": ".\\SQLEXPRESS",
+        "database": "Delivery_Performance_DW",
+        "user": "adm_pwbi",
+        "password": "P0o9i*u7y6t5r4",
+        "trust_server_certificate": true
+    },
+    "paths": {
+        "base_path": "C:/Delivery Performance",
+        "orders": "orders.parquet",
+        "client": "client_name.xlsx",
+        "client_sla": "client_sla.xlsx",
+        "region": "region.xlsx"
+    }
+}
